@@ -1,0 +1,66 @@
+.pet-fav {
+  font-weight: bold;
+  font-size: 2.25rem;
+  font-family: Geologica, sans-serif;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.prod-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  float: left;
+  width: 400px;
+  height: 500px;
+  border: solid 1.5px #f4d35e;
+  transition: all 0.2s;
+  margin-bottom: 1.5rem;
+}
+
+.prod-card:hover {
+  box-shadow: 3px 10px 12px #ee964b;
+  cursor: pointer;
+}
+
+.prod-card.with-transform:hover {
+  transform: translateY(-2px);
+}
+
+.card-img-wrap {
+  width: 30%;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #0d3b66;
+}
+
+.rev-n-rate {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.rev {
+  margin-left: 1rem;
+  color: black;
+  font-weight: 200;
+}
+
+@media screen and (width <= 992px) {
+  .pet-fav {
+    text-align: center;
+  }
+}

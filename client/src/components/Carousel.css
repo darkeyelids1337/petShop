@@ -1,0 +1,55 @@
+.carousel-wrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.l-arrow-wrap,
+.r-arrow-wrap {
+  margin-top: 14rem;
+  font-size: 2rem;
+}
+
+.l-arrow-wrap {
+  margin-right: 2rem;
+}
+
+.r-arrow-wrap {
+  margin-left: 2rem;
+}
+
+.l-arrow-wrap,
+.r-arrow-wrap:hover {
+  cursor: pointer;
+}
+
+.mid-col-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-img {
+  width: 700px;
+}
+
+.progress-bar {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}
+
+.progress-bar:hover {
+  cursor: pointer;
+}
+
+@media screen and (width <= 992px) {
+  .carousel-img {
+    width: 110%;
+  }
+
+  .l-arrow-wrap,
+  .r-arrow-wrap {
+    display: none;
+  }
+}

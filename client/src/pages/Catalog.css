@@ -1,0 +1,11 @@
+.catalog-h1 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+@media screen and (width <= 992px) {
+  .prod-wrap {
+    width: 90%;
+  }
+}

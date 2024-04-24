@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-h2 {
+  color: #0d3b66;
+  margin-top: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.success-signin-btn {
+  height: 4rem;
+  width: 15rem;
+  padding: 0.25rem;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  background-color: #ee964b;
+  border: none;
+  border-radius: 5px;
+  font-family: work-sans, sans-serif;
+}
+
+.success-signin-btn:hover {
+  border: #faf0ca 2px solid;
+}
+
+.success-img {
+  width: 150%;
+}
+
+@media screen and (width <= 992px) {
+  .success-h2 {
+    text-align: center;
+  }
+
+  .success-img {
+    width: 110%;
+  }
+}

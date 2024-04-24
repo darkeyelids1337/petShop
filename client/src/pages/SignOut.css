@@ -1,0 +1,108 @@
+.signout-hero {
+  width: 100%;
+  height: 550px;
+}
+
+.signout-h1 {
+  margin-left: 3rem;
+  color: #0d3b66;
+}
+
+.signout-header-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.signout-h2 {
+  margin-top: 2rem;
+  font-family: geologica, sans-serif;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.wishlist-remove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.remove-btn {
+  padding: 0.25rem;
+  margin-bottom: 2rem;
+  width: 25rem;
+  height: 3rem;
+  border: none;
+  background-color: #ee964b;
+  color: black;
+  border-radius: 10px;
+}
+
+.remove-btn:hover {
+  border: solid 2px #faf0ca;
+}
+
+.trash-icon {
+  font-size: 1.25rem;
+  margin-right: 1rem;
+}
+
+.signout-btn {
+  margin-right: 3rem;
+  border-radius: 5px;
+  font-size: 1.25rem;
+  background-color: #f4d35e;
+  border: #f4d35e;
+  color: #f95738;
+}
+
+.unsubscribe-btn {
+  background-color: #ee964b;
+  border: #ee964b;
+  font-size: 1.25rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  color: #faf0ca;
+}
+
+.signout-btn,
+.unsubscribe-btn {
+  width: 15rem;
+  height: 3.5rem;
+  color: black;
+}
+
+.signout-btn:hover,
+.unsubscribe-btn:hover {
+  border: solid 2px #faf0ca;
+}
+
+@media screen and (width <= 992px) {
+  .signout-hero {
+    width: 100%;
+    height: auto;
+  }
+
+  .signout-header-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .signout-btns-wrap {
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  .signout-btn {
+    margin-right: 0;
+  }
+
+  .signout-h1 {
+    margin-right: 2rem;
+  }
+
+  .remove-btn {
+    width: 20rem;
+  }
+}

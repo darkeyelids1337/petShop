@@ -1,0 +1,40 @@
+.cart-h1 {
+  margin-top: 1rem;
+  margin-left: 3rem;
+  text-align: center;
+  color: #0d3b66;
+  font-family: geologica, sans-serif;
+  margin-bottom: 1rem;
+}
+
+.cart-p {
+  text-align: center;
+  margin-bottom: 5rem;
+  font-family: geologica, sans-serif;
+  font-size: 12px;
+}
+
+.cart-error-h2 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.cart-remove {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (width <= 992px) {
+  .cart-h1 {
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .cart-p {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+  }
+}

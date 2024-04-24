@@ -1,0 +1,107 @@
+.shop-by-pets-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-by-pets {
+  margin-top: 5rem;
+  margin-left: 7rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+  font-size: 2.25rem;
+}
+
+.btns-wrap {
+  display: flex;
+}
+
+.btns-wrap:hover::before {
+  content: '';
+  position: absolute;
+  transition: opacity 0.3s;
+  opacity: 0.4;
+  margin-left: 8.25rem;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+}
+
+.img {
+  width: 70%;
+}
+
+.img:hover {
+  background-color: white;
+  opacity: 80%;
+}
+
+.cat-btn {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  width: 50%;
+  background-color: transparent;
+  overflow: hidden;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.cat-btn:hover::after {
+  content: 'Мяу \1F431';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+.dog-btn {
+  position: relative;
+  display: inline-block;
+  border: 0;
+  width: 50%;
+  background-color: transparent;
+  overflow: hidden;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.dog-btn:hover::after {
+  content: 'Гав \1F436';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+}
+
+@media screen and (width <= 992px) {
+  .shop-by-pets {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+
+  .btns-wrap:hover::before {
+    margin-left: 4rem;
+  }
+
+  .img {
+    width: 100%;
+  }
+
+  .cat-btn:hover::after {
+    font-size: 2rem;
+  }
+
+  .dog-btn:hover::after {
+    font-size: 2rem;
+  }
+}
